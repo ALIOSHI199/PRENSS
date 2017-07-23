@@ -1,9 +1,8 @@
-_________ keko_bot______________ (https://telegram.me/kekkkoo)
+_________ KASPER______________ (@USA_KASPER1K)
 
-طريقة تصيب سورس كيكو بوت (keko_bot)
+طريقة تصيب سورس كاسبر (KASPER)
 
 🏴🏳🏴👾🏴🏳🏴👾🏴🏳🏴
-🎃🎃🎃🎃♕🤖♕🎃🎃🎃🎃
 
 افتـح ترمنـــأل وخلي   
 sudo apt-get update
@@ -34,13 +33,13 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ورأهأَ خلي  
 
 
-git clone https://github.com/kekobot/bot_keko.git
+git clone https://github.com/KASPER1984/KASPER.git
 
 ✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢
 
 ورهأ خلي    
 
-cd bot_keko 
+cd KASPER 
 
 ✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢
 
@@ -93,10 +92,6 @@ killall tmux
 
 ✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢
 
-مطور السورس @keko11keko
-
-قنات السورس @kekkkoo
-
-بوت التواصل @kekohhbot
+مطور السورس @USA_KASPER1K
 
 نشالله يعجبكم ♥️🎃
