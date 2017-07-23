@@ -271,7 +271,7 @@ r(rr, "وك معلم 🌚💞", o, f)
 elseif w== "تحبني"  then
 r(rr, "بحبك اد الكون 😍🌷", o, f) 
 elseif w== "المطور"  then
-r(rr, "HAIDER @USA_KASPER1K  🌝🌸", o, f) 
+r(rr, "https://t.me/USA_KASPER1", o, f) 
 elseif w== "موجود"  then
 r(rr, "تفضل عزيزي 🌝🌸", o, f) 
 elseif w== "اكلك"  then
