@@ -20,7 +20,7 @@ do local _ = {
     "ar_version",
     "arabic_lock",
     "ardevs",
-    "df",
+    "lock_edit",
     "get",
     "hello",
     "ingroup",
