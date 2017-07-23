@@ -1,56 +1,39 @@
-do 
-local function run(msg, matches) 
- if is_sudo(msg) then 
-   local sudo = "عزيز موقعك ومعلوماتك هنا 👇🏌"..msg.from.first_name.."\n" 
-   .."🆔🎃 ايديك :("..msg.from.id..")\n" 
-   .."🆔🎃 ايدي الكروب :("..msg.to.id..")\n" 
-   .." 🎃  معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
-   ..".🎃  رقمك :("..(msg.from.phone or " لا يوجد")..")\n" 
-   .."موقعك 🎃  : انته مطور مالتي 🕵👋 " 
-return reply_msg(msg.id, sudo, ok_cb, true) 
- end 
- if is_owner(msg) then 
- local owner = "عزيزي موقعك ومعلوماتك هنا 👇🏌"..msg.from.first_name.."\n" 
-   .."🆔🎃 ايديك :("..msg.from.id..")\n" 
-   .."🆔🎃 ايدي الكروب :("..msg.to.id..")\n" 
-   .." 🎃  معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
-   .."📞رقمك :("..(msg.from.phone or " لا يوجد ")..")\n" 
-   .."🎃 موقعك :انته مدير المجموعه 🚨 👥 »" 
-return reply_msg(msg.id, owner, ok_cb, true) 
- end 
- if is_admin1(msg) then 
-local admin1 = "عزيزي موقعك ومعلوماتك هنا🎃 👇🏼" 
-   .."🆔🎃 ايديك :("..msg.from.id..")\n" 
-   .."🆔🎃 ايدي الكروب :("..msg.to.id..")\n" 
-   .."🎃  معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
-   .." 🎃  رقمك :("..(msg.from.phone or " لايوجد ")..")\n" 
-   .."👷موقعك :انته ضلع المدير اقصد ادمن 🙋» " 
-return reply_msg(msg.id, admin1, ok_cb, true) 
-end 
-if is_momod(msg) then 
-      local admin = "عزيزي موقعك ومعلوماتك هنا 🎃 👇🏼" ..msg.from.first_name.. "\n" 
-   .."🆔🎃 ايديك :("..msg.from.id..")\n" 
-   .."🆔🎃 ايدي الكروب :("..msg.to.id..")\n" 
-   .."🎃 ️معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
-   .."🎃 📞رقمك :("..(msg.from.phone or " لا يوجد ")..")\n" 
-   .."👮🎃 موقعك :انته ادمن المحترم 🎩" 
-return reply_msg(msg.id, admin, ok_cb, true) 
- end 
- if not is_momod(msg) then 
-      local member = "عزيزي موقعك ومعلوماتك هنا🕵🎃 👇🏼" ..msg.from.first_name.. "\n" 
-   .."🆔🎃 ايديك :("..msg.from.id..")\n" 
-   .."🆔🎃 ايدي الكروب :("..msg.to.id..")\n" 
-   .."📌🎃 معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
-   .."📞🎃 رقمك :("..(msg.from.phone or "لايوجد " )..")\n" 
-   .."🚸🎃 موقعك :انته طفل قصدي عضو 😹💔» " 
-return reply_msg(msg.id, member, ok_cb, true) 
- end 
-end 
+--[[
+-- @BRWUEN
+]]
+do
+local function joker(msg ,matches)
+        if is_sudo(msg) then
+local url = "http://a.top4top.net/p_212rb9v1.gif"
+local file = download_to_file(url,'DeaD.gif')
+send_document(get_receiver(msg) , file, ok_cb, false)
+        
+        elseif is_owner(msg) then
+        local url = "http://d.top4top.net/p_212v8w81.gif"
+local file = download_to_file(url,'DeaD.gif')
+send_document(get_receiver(msg) , file, ok_cb, false)
+        
+        elseif is_momod(msg) then
+        local url = "http://f.top4top.net/p_2123iuk3.gif"
+local file = download_to_file(url,'DeaD.gif')
+send_document(get_receiver(msg) , file, ok_cb, false)
+        
+        elseif not is_momod(msg) then
+        local url = "http://e.top4top.net/p_212i0se2.gif"
+local file = download_to_file(url,'DeaD.gif')
+send_document(get_receiver(msg) , file, ok_cb, false)
+        
+        end
+end
 
 return { 
-  patterns = { 
-       "^(موقعي)$", 
-  }, 
-  run = run, 
-} 
+    patterns = { 
+                                      "^(موقعي)$", 
+               
+
+    },
+    run = joker,
+    
+}
+--by #BRWUEN
 end
