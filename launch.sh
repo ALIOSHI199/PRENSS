@@ -112,7 +112,7 @@ else
   fi
   while true; do
    rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/keko_bot.lua -l 1 -E $@
+   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/KASPER.lua -l 1 -E $@
    sleep 3
   done
 fi
@@ -122,11 +122,11 @@ fi
     |;|    / ;/                              
     |;|   / ;/                        
     |;|  / ;/    ______                    
-    |;| / ;/    | eko |         dev - @keko11keko
+    |;| / ;/    | KASPER |         dev - @USA_KASPER1K
     |;| \ ;\                                
     |;|  \ ;\                                 
     |;|   \ ;\                               
     |;|    \ ;\                            
     |;|     \ ;\                             
-                     https://github.com/kekobot/bot_keko             
+                  
 ]]--
