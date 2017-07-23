@@ -228,8 +228,6 @@ function create_config( )
     "onservice",
     "plugins",
     "supergroup",
-    "html",
-    "arabic_lock",
     "ardevs",
     "lock_edit",
     "get",
@@ -253,8 +251,7 @@ function create_config( )
     "ar-banhammer",
     "lock_ads",
     "lock_medi",
-    "msg_checks",
-
+    "msg_checks"
   },
     sudo_users = {113644348},--Sudo users
     moderation = {data = 'data/moderation.json'},
