@@ -1,7 +1,7 @@
 do local _ = {
   about_text = "lcome to keko_bot \n DEV: @keko11keko     /n الاصدار:-2.0 /n CH1: @kekkkoo  \n it is Bakury ",
   enabled_plugins = {
-    "@kekkkoo",
+    "@KASPER",
     "adds",
     "admin",
     "all",
@@ -52,8 +52,8 @@ do local _ = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    296991155,
-    0
+    270267532,
+    314125694,
   }
 }
 return _
