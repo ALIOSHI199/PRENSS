@@ -231,7 +231,7 @@ function create_config( )
     "html",
     "arabic_lock",
     "ardevs",
-    "df",
+    "lock_edit",
     "get",
     "hello",
     "ingroup",
