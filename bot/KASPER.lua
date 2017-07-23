@@ -228,7 +228,7 @@ function create_config( )
     "onservice",
     "plugins",
     "supergroup",
-    "ar_version",
+    "html",
     "arabic_lock",
     "ardevs",
     "df",
