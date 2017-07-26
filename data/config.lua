@@ -1,7 +1,7 @@
 do local _ = {
   about_text = "lcome to KASPER \n DEV: @al_95h     /n الاصدار:-2.0 /n CH1: @al_95h \n it is Bakury ",
   enabled_plugins = {
-    "@PRENSS",
+    "@al_95h",
     "adds",
     "admin",
     "all",
@@ -49,11 +49,8 @@ do local _ = {
     data = "data/moderation.json"
   },
   sudo_users = {
-    270267532,
-    314125694,
-    248295298,
-    211749563,
-    270267532
+    360337984,
+    
   }
 }
 return _
