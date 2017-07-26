@@ -1,8 +1,4 @@
-_________ KASPER______________ (@USA_KASPER1K)
 
-طريقة تصيب سورس كاسبر (KASPER)
-
-🏴🏳🏴👾🏴🏳🏴👾🏴🏳🏴
 
 افتـح ترمنـــأل وخلي   
 sudo apt-get update
@@ -33,13 +29,13 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ورأهأَ خلي  
 
 
-git clone https://github.com/KASPER1984/KASPER.git
+git clone https://github.com/ALIOSHI199/PRENSS.git
 
 ✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢
 
 ورهأ خلي    
 
-cd KASPER 
+cd PRENSS
 
 ✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢
 
@@ -91,7 +87,3 @@ killall tmux
 👾راح تلاحظ اكو فرق بالسرعة👨‍💻
 
 ✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢✜✢
-
-مطور السورس @USA_KASPER1K
-
-نشالله يعجبكم ♥️🎃
