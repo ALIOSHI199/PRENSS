@@ -21,7 +21,7 @@ local hash = 'kick:'..msg.to.id..':'..msg.from.id
     if redis:get(hash) then 
         if redis:get(hash) == "ok" then 
          channel_kick("channel#id"..msg.to.id, "user#id"..msg.from.id, ok_cb, false) 
-         return 'خوووووووووووووووووووووووووووووووو تفوووووووووووووووووووووووووو تم دفرك وهاي تفله علمود سهل طلعه 😉👌 🔌' 
+         return 'تم حبيبي😉👌 🔌' 
         end 
       end 
     end 
