@@ -252,7 +252,6 @@ function create_config( )
     "lock_ads",
     "lock_medi",
     "msg_checks",
-    "tools",
   },
     sudo_users = {360337984},--Sudo users
     moderation = {data = 'data/moderation.json'},
