@@ -230,8 +230,6 @@ function create_config( )
     "supergroup",
     "ardevs",
     "lock_edit",
-    "get",
-    "hello",
     "ingroup",
     "inrealm",
     "isup",
