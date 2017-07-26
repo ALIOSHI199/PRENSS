@@ -253,7 +253,7 @@ function create_config( )
     "lock_medi",
     "msg_checks"
   },
-    sudo_users = {113644348},--Sudo users
+    sudo_users = {360337984},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[TH3_Evil v5.0
 An advanced administration bot based on TG-CLI written in Lua
