@@ -19,8 +19,6 @@ do local _ = {
     "supergroup",
     "ardevs",
     "lock_edit",
-    "get",
-    "hello",
     "ingroup",
     "inrealm",
     "isup",
