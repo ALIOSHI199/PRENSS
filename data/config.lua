@@ -1,7 +1,7 @@
 do local _ = {
-  about_text = "lcome to KASPER \n DEV: @USA_KASPER     /n الاصدار:-2.0 /n CH1: @USA_KASPER1K  \n it is Bakury ",
+  about_text = "lcome to KASPER \n DEV: @al_95h     /n الاصدار:-2.0 /n CH1: @al_95h \n it is Bakury ",
   enabled_plugins = {
-    "@KASPER",
+    "@PRENSS",
     "adds",
     "admin",
     "all",
