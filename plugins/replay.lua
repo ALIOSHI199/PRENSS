@@ -7,7 +7,7 @@
                                      |_|           |_|_____|
 —]]
 do 
-local function USA_KASPER1K(msg, matches) 
+local function aliosh(msg, matches) 
 local w = matches[1]
 local r = reply_msg
 local rr = msg['id']
@@ -25,16 +25,16 @@ redis:del(rdod)
 r(rr, "تم ✔️ تعطيل الردود 🔇", o, f) 
 end
 ------------------------------------------------
--- by @USA_KASPER1K
+-- by @al_95h
 if redis:get(rdod) then
 if (msg.to.type == "user") then
-return "كاسبر للحمايه \n يعمل على كروبات السوبر تصل الى 5k عضو \n\n لطلب البوت راسل  المطور👇👇👇\n 🏌 ∂єνєℓσρєяѕ тєαм ☂\n\n🔹 ĐёⓋ 🔸@USA_KASPER1K\n"
+return "كاسبر للحمايه \n يعمل على كروبات السوبر تصل الى 5k عضو \n\n لطلب البوت راسل  المطور👇👇👇\n 🏌 ∂єνєℓσρєяѕ тєαм ☂\n\n🔹 ĐёⓋ 🔸@al_95h\n"
 else
 if ( msg.text ) and ( msg.to.type == "channel" ) or ( msg.to.type == "chat" ) then
--- by @USA_KASPER1K
+-- by @al_95h
 local su = {
 "نعم حبيبي المطور 🌝❤️",
-"يابعد روح كاسبر 😘❤️",
+:يابعد روح برنس 😘❤️",
   }
 local  ss97 = {
 "ها حياتي😻",
@@ -87,15 +87,15 @@ local fun = {
 "«يـ•ـஓـضحـ•ـﷻـ•ـك الـًَۥـ﴿😹﴾ـفطِـ❅ـيَرْ",
 }
 
-local ssu = "🏌 ∂єνєℓσρєяѕ тєαм ☂\n\n🔹 ĐёⓋ 🔸@USA_KASPER1K\n🔹 ĐёⓋ 🔸@KASPER\n🔸 Channle 🔹@porgramer2017"
+local ssu = "🏌 ∂єνєℓσρєяѕ тєαм ☂\n\n🔹 ĐёⓋ 🔸@al_95h\n🔹 ĐёⓋ 🔸@alioshiii\n🔸 Channle 🔹@alioshhitbot"
 ----------------------------------------------
 
 
 
 ----------------------------------------------------------------------------
-if is_sudo(msg) and w == "كاسبر" then 
+if is_sudo(msg) and w == "برنس" then 
 r(rr, su[math.random(#su)] , o, f)  
-elseif not is_sudo(msg) and w == "كاسبر" then 
+elseif not is_sudo(msg) and w == "برنس" then 
 r(rr, ss97[math.random(#ss97)] , o, f)  
 elseif w == "بوس" then 
 r(rr, bs[math.random(#bs)] , o, f)  
@@ -300,13 +300,13 @@ end end end  end end
 ---------------------------------------------
 if w =="تيست" then
 if (msg.to.type == "user") then
-return "🏌 ∂єνєℓσρєяѕ ☂\n\n🔸ĐёⓋ 🔸@USA_KASPER1K\n"
+return "🏌 ∂єνєℓσρєяѕ ☂\n\n🔸ĐёⓋ 🔸@al_95h\n"
 else-- by @USA_KASPER1K
 r(rr, "💯 البوت شـغــال 🚀", o, f)
 end end
 if w == "المطور" then
 if (msg.to.type == "user") then
-return "🏌 ∂єνєℓσρєяѕ ☂\n\n🔸ĐёⓋ 🔸@USA_KASPER1K\n"
+return "🏌 ∂єνєℓσρєяѕ ☂\n\n🔸ĐёⓋ 🔸@al_95h\n"
 else
 r(rr, ssu, o, f)
 end end
@@ -322,8 +322,7 @@ patterns = {
 run = USA_KASPER1K,
 }
 end
--- write by dev KASPER
--- tele : @USA_KASPER1K
+-- write by dev aliosh
 --[[
        _               _                      _            _  ___   ___  _    
   __ _| |__   ___  ___| | ___ __ ___  _ __   (_) __ _     / |/ _ \ / _ \| | __
